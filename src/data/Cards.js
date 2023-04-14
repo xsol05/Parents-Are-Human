@@ -1,4 +1,4 @@
-const LevelOneCards = [
+const Cards = [
   {
     id: 1,
     level: 1,
@@ -178,6 +178,46 @@ const LevelOneCards = [
     englishQuestion: 'Who has had the biggest impact on you and your life?',
     simChineseQuestion: '在你的生命中，对你影响最大的人是谁？',
   },
+  {
+    id: 1,
+    level: 2,
+    type: 'Question',
+    topic: 'Identity',
+    englishQuestion: 'What are you most proud of in your life?',
+    simChineseQuestion: '你一生中最值得骄傲的是什么？',
+  },
+  {
+    id: 2,
+    level: 2,
+    type: 'Question',
+    topic: 'Identity',
+    englishQuestion: 'What do you love the most about yourself?',
+    simChineseQuestion: '你最喜欢自己的哪一个方面？',
+  },
+  {
+    id: 3,
+    level: 2,
+    type: 'Question',
+    topic: 'Identity',
+    englishQuestion: 'What bad habit do you wish you could break?',
+    simChineseQuestion: '你最想改掉的坏习惯是什么？',
+  },
+  {
+    id: 4,
+    level: 2,
+    type: 'Question',
+    topic: 'Identity',
+    englishQuestion: 'What do you feel is the purpose of your life?',
+    simChineseQuestion: '你的人生目标是什么？',
+  },
+  {
+    id: 5,
+    level: 2,
+    type: 'Question',
+    topic: ' Life Events',
+    englishQuestion: 'What were the hardest choices you had to make in life?',
+    simChineseQuestion: '你一生中最艰难的选择是什么？',
+  },
 ]
 
-export default LevelOneCards
+export default Cards
