@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Parents-Are-Human/static/css/main.79a7db5a.css",
+    "main.js": "/Parents-Are-Human/static/js/main.8adb074c.js",
+    "index.html": "/Parents-Are-Human/index.html",
+    "main.79a7db5a.css.map": "/Parents-Are-Human/static/css/main.79a7db5a.css.map",
+    "main.8adb074c.js.map": "/Parents-Are-Human/static/js/main.8adb074c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a7db5a.css",
+    "static/js/main.8adb074c.js"
+  ]
+}
