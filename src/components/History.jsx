@@ -2,12 +2,16 @@ import React from 'react'
 
 const History = ({ cards }) => (
   <div>
-    <h3>History</h3>
-    <ul>
-      {cards.map((card, index) => (
-        <li key={index}>{card.englishQuestion}</li>
-      ))}
-    </ul>
+    <details>
+      <summary>History</summary>
+      <ul style={{ listStyleType: 'disc' }}>
+        {cards.map((card, index) => (
+          <li key={index}>
+            {card.englishQuestion} {card.simChineseQuestion}
+          </li>
+        ))}
+      </ul>
+    </details>
   </div>
 )
 
