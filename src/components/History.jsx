@@ -3,7 +3,7 @@ import React from 'react'
 const History = ({ cards }) => (
   <div>
     <details>
-      <summary>History</summary>
+      <summary>Previous Questions</summary>
       <ul style={{ listStyleType: 'disc' }}>
         {cards.map((card, index) => (
           <li key={index}>

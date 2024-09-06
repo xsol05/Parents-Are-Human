@@ -60,10 +60,22 @@ const App = () => {
       <Header />
       <div className="container">
         <div className="buttonArrangement">
-          <Button onClick={() => changeLevel(1)} text={'Level 1'} />
-          <Button onClick={() => changeLevel(2)} text={'Level 2'} />
-          <Button onClick={generateNewCard} text={'New card'}></Button>
+          <Button
+            onClick={() => changeLevel(1)}
+            text={'Level 1'}
+            variant={'normal'}
+          />
+          <Button
+            onClick={() => changeLevel(2)}
+            text={'Level 2'}
+            variant={'normal'}
+          />
         </div>
+        <Button
+          onClick={generateNewCard}
+          text={'Pick a new card!'}
+          variant={'newCard'}
+        ></Button>
         <Card card={CardPile[level][index]} />
         <History cards={usedCards} />
       </div>
