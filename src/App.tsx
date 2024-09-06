@@ -36,7 +36,7 @@ const App = () => {
   // 2. Generate a new card that does not have the same index as any card in history list
   const generateNewCard = () => {
     if (usedCards.length === CardPile[level].length - 1) {
-      alert('Congrats! You have gone through all the cards for this level 🥳')
+      setIndex(NaN)
       return
     }
 
