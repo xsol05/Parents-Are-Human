@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #202142;
+  background-color: #e6dfdfe7;
   color: #fff;
   line-height: 1.6;
 }
@@ -36,12 +36,21 @@ ul {
 }
 
 .card {
-  background-color: #fff;
-  color: #333;
+  color: #fff;
+  background-color: #ed8b00;
   border-radius: 15px;
   padding: 40px 50px;
   margin: 20px 0;
   position: relative;
+  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 50%);
+
+  @media (min-width: 768px) {
+    min-width: 520px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 350px;
+  }
 }
 
 .cardDetails {
@@ -59,8 +68,9 @@ ul {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #ff6a95;
+  background-color: #e6dfdfe7;
+  color: #4b4d4e;
+  border: 2px solid #4b4d4e;
   border-radius: 15px;
   padding: 5px 10px;
   width: 150px;
@@ -69,9 +79,22 @@ ul {
 }
 
 .button:hover {
-  background-color: pink;
+  background-color: #c5c0c0e7;
 }
 
-.newCard {
+.newCardButton {
   width: 250px;
+  background-color: #ed8b00;
+  color: #fff;
+  border: #ed8b00;
+}
+
+.newCardButton:hover {
+  background-color: #f8a736;
+  border: #f8a736;
+}
+
+.history {
+  color: #4b4d4e;
+  margin: 0px 30px 50px 30px;
 }

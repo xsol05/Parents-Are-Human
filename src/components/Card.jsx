@@ -1,7 +1,17 @@
 import React from 'react'
 
 const Card = ({ card }) => (
-  <div className="card">
+  <div
+    className="card"
+    style={{
+      backgroundColor:
+        card && card.topic === 'Action'
+          ? '#9A3324'
+          : card
+          ? '#1D4289FF'
+          : undefined,
+    }}
+  >
     {card && (
       <>
         <div className="cardDetails">
@@ -14,7 +24,7 @@ const Card = ({ card }) => (
     )}
     {!card && (
       <>
-        <h1>Congratulations! 🥳</h1>
+        <h1>Congrats! 🥳</h1>
         <p>You have finished all the cards in this level!</p>
       </>
     )}

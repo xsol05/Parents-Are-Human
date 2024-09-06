@@ -1,7 +1,7 @@
 import React from 'react'
 
 const History = ({ cards }) => (
-  <div>
+  <div className="history">
     <details>
       <summary>Previous Questions</summary>
       <ul style={{ listStyleType: 'disc' }}>
