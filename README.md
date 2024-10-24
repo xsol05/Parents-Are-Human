@@ -1,5 +1,9 @@
 # Parents-Are-Human
 
+👉 **Play the game here!** https://magdelinehuang.com/Parents-Are-Human/
+
+---
+
 <p>
   <a href="https://parentsarehuman.com/">
     <strong>Parents Are Human</strong>
