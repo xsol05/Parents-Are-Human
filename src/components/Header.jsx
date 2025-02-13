@@ -25,7 +25,11 @@ const Header = ({
       {showInfo && (
         <div className="infoBox">
           <p>
-            <a href="https://parentsarehuman.com/">
+            <a
+              href="https://parentsarehuman.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <strong>Parents Are Human</strong>
             </a>{' '}
             is a card game designed to spark deep conversations between you and
@@ -50,16 +54,27 @@ const Header = ({
           <br />
           <p>
             Note: This is based off the{' '}
-            <a href="https://parentsarehuman.notion.site/Parents-Are-Human-Simplified-Chinese-Edition-f366bec52e5b446d841b7dfaf81d8cd3">
+            <a
+              href="https://parentsarehuman.com/digital"
+              target="_blank"
+              rel="noreferrer"
+            >
               free digital version
             </a>{' '}
-            of Parents are Human.
+            of Parents are Human. Permission has been granted by Parents are
+            Human to recreate this game in a digital format.
           </p>
           <br></br>
           <p>
             <i>
               Coded with ❤ by{' '}
-              <a href="https://magdelinehuang.com/">Magdeline Huang</a>
+              <a
+                href="https://magdelinehuang.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Magdeline Huang
+              </a>
             </i>
           </p>
         </div>
