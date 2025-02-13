@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Parents-Are-Human/static/css/main.ee7c3f60.css",
-    "main.js": "/Parents-Are-Human/static/js/main.8adb074c.js",
+    "main.js": "/Parents-Are-Human/static/js/main.87736a6e.js",
     "index.html": "/Parents-Are-Human/index.html",
     "main.ee7c3f60.css.map": "/Parents-Are-Human/static/css/main.ee7c3f60.css.map",
-    "main.8adb074c.js.map": "/Parents-Are-Human/static/js/main.8adb074c.js.map"
+    "main.87736a6e.js.map": "/Parents-Are-Human/static/js/main.87736a6e.js.map"
   },
   "entrypoints": [
     "static/css/main.ee7c3f60.css",
-    "static/js/main.8adb074c.js"
+    "static/js/main.87736a6e.js"
   ]
 }
